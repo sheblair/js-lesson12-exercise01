@@ -41,6 +41,7 @@ selectUserNumber.addEventListener("change", function (e) {
     getData(numUsers);
 });
 
+// we have to give the getData() function an argument now because it expects one, because it has a parameter
 // call the function on its own with a default numUsers of 1 to provide a user upon refreshing the page.
 // all other numUsers will be access through the change event and the getData() function call at the bottom of it
 getData(1);
